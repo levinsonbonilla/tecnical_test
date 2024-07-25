@@ -6,6 +6,7 @@ import Layout from './Components/Layout';
 import DataTableDoctors from './Components/DataTableDoctors';
 import FormPatient from './Components/FormPatient';
 import FormDoctor from './Components/FormDoctor';
+import AppointmentCalendar from './Components/AppointmentCalendar';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
                 <Route path='/' element={<DataTablePatients />} />
                 <Route path='/doctors' element={<DataTableDoctors />} />
                 <Route path='/add/patient' element={<FormPatient />} />
-                <Route path='/add/doctor' element={<FormDoctor />} />
+                <Route path='/agenda' element={<AppointmentCalendar />} />
               </Routes>
             </div>
           </div>

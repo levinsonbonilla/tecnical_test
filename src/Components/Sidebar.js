@@ -7,7 +7,7 @@ const Sidebar = () => {
       <Nav className="flex-column p-3">
         <Nav.Link href={`/`}>Pacientes</Nav.Link>
         <Nav.Link href="/doctors">Doctores</Nav.Link>
-        <Nav.Link href="/">Citas</Nav.Link>
+        <Nav.Link href="/agenda">Citas</Nav.Link>
       </Nav>
     </div>
   );
